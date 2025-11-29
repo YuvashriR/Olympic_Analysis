@@ -1,7 +1,3 @@
-# Statistical Learning : CourseWork 1
-#201779492
-
-
 # Load the dataset
 data <- read.csv("C:/Users/Admin/OneDrive - University of Leeds/Desktop/Statistical Learning/medal_pop_gdp_data_statlearn.csv")
 
@@ -371,6 +367,7 @@ probability_at_least_one_medal <- ppois(1, lambda = UK_predicted_medals, lower.t
 
 # Output the probability
 probability_at_least_one_medal
+
 
 
 
